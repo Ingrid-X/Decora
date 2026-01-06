@@ -1,0 +1,17 @@
+# WordPress core
+wp-admin/
+wp-includes/
+wp-content/uploads/
+
+# Configuración sensible
+wp-config.php
+
+# Cache
+wp-content/cache/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
