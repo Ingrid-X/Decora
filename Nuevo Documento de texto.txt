@@ -1,0 +1,50 @@
+# ==========================
+# WordPress Core
+# ==========================
+/wp-admin/
+/wp-includes/
+/license.txt
+/readme.html
+
+# ==========================
+# Uploads (medios pesados, no versionar)
+/wp-content/uploads/
+
+# ==========================
+# Configuración sensible
+wp-config.php
+.htaccess
+
+# ==========================
+# Cachés de WordPress
+/wp-content/cache/
+/wp-content/advanced-cache.php
+/wp-content/object-cache.php
+
+# ==========================
+# Logs y debug
+*.log
+debug.log
+error_log
+
+# ==========================
+# Archivos temporales / de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Archivos de XAMPP
+/xamppfiles/
+/tmp/
+/logs/
+mysql/data/
+phpmyadmin/
+
+# ==========================
+# Otros (editores, entornos locales)
+/.idea/
+/.vscode/
+/node_modules/
+
+Thumbs.db

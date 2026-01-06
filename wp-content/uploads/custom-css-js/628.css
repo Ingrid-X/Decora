@@ -1,0 +1,119 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* ==============================
+   MY ACCOUNT – CLEAN LAYOUT
+============================== */
+
+body.woocommerce-account .woocommerce {
+  display: flex;
+  gap: 3rem;
+}
+
+/* ==============================
+   LEFT MENU
+============================== */
+
+body.woocommerce-account .woocommerce-MyAccount-navigation {
+  width: 260px;
+  background: #f3f3f3;
+  padding: 1.5rem;
+}
+
+body.woocommerce-account .woocommerce-MyAccount-navigation li a {
+  padding: 14px 16px;
+  font-size: 15px;
+  border-left: 3px solid transparent;
+}
+
+body.woocommerce-account
+.woocommerce-MyAccount-navigation li.is-active a {
+  background: #111;
+  color: #fff;
+  border-left: 3px solid #ff6a00;
+}
+
+/* ==============================
+   CONTENT AREA
+============================== */
+
+body.woocommerce-account .woocommerce-MyAccount-content {
+  flex: 1;
+  padding: 2rem 0;
+}
+
+/* ==============================
+   WELCOME TEXT
+============================== */
+
+body.woocommerce-account .woocommerce-MyAccount-content p:first-of-type {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+/* ==============================
+   DESCRIPTION TEXT
+============================== */
+
+body.woocommerce-account .woocommerce-MyAccount-content p {
+  max-width: 600px;
+  line-height: 1.7;
+  color: #444;
+}
+
+/* ==============================
+   LINKS INSIDE TEXT
+============================== */
+
+body.woocommerce-account .woocommerce-MyAccount-content a {
+  color: #ff6a00;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+/* ==============================
+   REMOVE VISUAL NOISE
+============================== */
+
+body.woocommerce-account hr {
+  display: none;
+}
+
+/* ==============================
+   MOBILE
+============================== */
+
+@media (max-width: 768px) {
+  body.woocommerce-account .woocommerce {
+    flex-direction: column;
+  }
+
+  body.woocommerce-account .woocommerce-MyAccount-navigation {
+    width: 100%;
+  }
+}
+
+/* === My Account › Detalles de la cuenta === */
+.woocommerce-account .woocommerce-EditAccountForm input[type="text"],
+.woocommerce-account .woocommerce-EditAccountForm input[type="email"],
+.woocommerce-account .woocommerce-EditAccountForm input[type="password"] {
+  border: 1px solid #000;          /* borde negro fino */
+  border-radius: 4px;              /* suave, prolijo */
+  background-color: transparent;   /* mantiene tu fondo */
+  color: #8b6f5a;                  /* marrón claro agradable */
+  padding: 10px 12px;
+}
+
+/* Placeholder (texto gris dentro del input) */
+.woocommerce-account .woocommerce-EditAccountForm input::placeholder {
+  color: #a68b75;
+}
+
+/* Al hacer foco (no agresivo) */
+.woocommerce-account .woocommerce-EditAccountForm input:focus {
+  outline: none;
+  border-color: #000;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

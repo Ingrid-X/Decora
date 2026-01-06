@@ -1,0 +1,12 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.shop-footer-copyright .site-footer .site-info {
+  color: #ffffff; /* change color */
+}
+
+.shop-footer-copyright .site-footer .site-info a {
+  color: #ffcc00; /* copyright links */
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->

@@ -1,0 +1,136 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* ==============================
+   MY ACCOUNT – GENERAL LAYOUT
+============================== */
+
+.woocommerce-account .site-main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  background: #ffffff;
+}
+
+/* ==============================
+   NAVIGATION (LEFT MENU)
+============================== */
+
+.woocommerce-MyAccount-navigation {
+  border-right: 1px solid #e5e5e5;
+}
+
+.woocommerce-MyAccount-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.woocommerce-MyAccount-navigation li {
+  margin-bottom: 4px;
+}
+
+.woocommerce-MyAccount-navigation li a {
+  display: block;
+  padding: 12px 16px;
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.woocommerce-MyAccount-navigation li a:hover {
+  background: #f5f5f5;
+}
+
+.woocommerce-MyAccount-navigation li.is-active a {
+  background: #111;
+  color: #fff;
+}
+
+/* ==============================
+   CONTENT AREA
+============================== */
+
+.woocommerce-MyAccount-content {
+  padding-left: 2rem;
+}
+
+.woocommerce-MyAccount-content h2 {
+  margin-bottom: 1.5rem;
+}
+
+/* ==============================
+   FORMS (LOGIN / REGISTER / EDIT)
+============================== */
+
+.woocommerce-account input[type="text"],
+.woocommerce-account input[type="email"],
+.woocommerce-account input[type="password"],
+.woocommerce-account input[type="tel"] {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 0;
+}
+
+.woocommerce-account label {
+  font-weight: 500;
+}
+
+/* ==============================
+   BUTTONS
+============================== */
+
+.woocommerce-account button,
+.woocommerce-account .button {
+  background-color: #111;
+  color: #fff;
+  border-radius: 0;
+  padding: 12px 24px;
+  font-weight: 500;
+}
+
+.woocommerce-account button:hover,
+.woocommerce-account .button:hover {
+  background-color: #333;
+}
+
+/* ==============================
+   TABLES (ORDERS)
+============================== */
+
+.woocommerce-account table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.woocommerce-account table th,
+.woocommerce-account table td {
+  padding: 12px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+/* ==============================
+   OPTIONAL: HIDE DOWNLOADS TAB
+============================== */
+
+.woocommerce-MyAccount-navigation-link--downloads {
+  display: none;
+}
+
+/* ==============================
+   RESPONSIVE (MOBILE)
+============================== */
+
+@media (max-width: 768px) {
+  .woocommerce-MyAccount-navigation {
+    border-right: none;
+    margin-bottom: 2rem;
+  }
+
+  .woocommerce-MyAccount-content {
+    padding-left: 0;
+  }
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->
